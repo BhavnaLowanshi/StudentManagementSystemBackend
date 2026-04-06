@@ -1,11 +1,5 @@
 ﻿namespace SchoolManagement.Api.DTOs
 {
-    //    public class RegisterStudentDto
-    //    {
-    //    }
-    //}
-
-
     public class RegisterStudentDto
     {
         public string FullName { get; set; }

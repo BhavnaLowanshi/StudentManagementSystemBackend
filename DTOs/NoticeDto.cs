@@ -1,20 +1,4 @@
-﻿
-
-
-
-
-//namespace SchoolManagement.Api.DTOs
-//public class NoticeDto
-//{
-//    public string Title { get; set; }
-//    public string Description { get; set; }
-//    public DateTime NoticeDate { get; set; } = DateTime.Now;
-//}
-
-
-
-
-namespace SchoolManagement.Api.DTOs
+﻿namespace SchoolManagement.Api.DTOs
 {
     public class NoticeDto
     {

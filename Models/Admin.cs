@@ -1,5 +1,4 @@
-﻿
-namespace SchoolManagement.Api.Models
+﻿namespace SchoolManagement.Api.Models
 {
     public class Admin
     {

@@ -1,15 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
-//namespace SchoolManagement.Api.Models
-//{
-//    public class Bus
-//    {
-//    }
-//}
-
-
-
-
 namespace SchoolManagement.Api.Models
 {
     public class Bus

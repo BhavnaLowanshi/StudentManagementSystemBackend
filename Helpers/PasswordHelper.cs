@@ -1,12 +1,4 @@
-﻿//namespace SchoolManagement.Api.Helpers
-//{
-//    public class PasswordHelper
-//    {
-//    }
-//}
-
-
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
 
 public static class PasswordHelper

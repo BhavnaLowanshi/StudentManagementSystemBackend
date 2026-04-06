@@ -1,13 +1,4 @@
-﻿//namespace SchoolManagement.Api.Models
-//{
-//    public class Result
-//    {
-//    }
-//}
-
-
-
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace SchoolManagement.Api.Models
 {
