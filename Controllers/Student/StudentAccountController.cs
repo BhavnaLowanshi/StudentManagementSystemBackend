@@ -1,4 +1,4 @@
-﻿//namespace SchoolManagement.Api.Controllers.Student
+//namespace SchoolManagement.Api.Controllers.Student
 //{
 //    public class StudentAccountController
 //    {
@@ -69,7 +69,7 @@ public class StudentAccountController : ControllerBase
 
         var student = new Student
         {
-            FullName = dto.FullName,
+            Name = dto.FullName,
             Email = dto.Email,
             PasswordHash = PasswordHelper.HashPassword(dto.Password)
         };
@@ -95,7 +95,7 @@ public class StudentAccountController : ControllerBase
         return Ok(new
         {
             student.Id,
-            student.FullName,
+            student.Name,
             student.Email
         });
     }
@@ -142,9 +142,9 @@ public class StudentAccountController : ControllerBase
             .Select(x => new
             {
                 x.Id,
-                x.FullName,
+                x.Name,
                 x.Email,
-                x.CreatedAt
+                x.CreatedDate
             })
             .FirstOrDefault();
 
