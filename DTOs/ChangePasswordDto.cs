@@ -1,11 +1,4 @@
-﻿//namespace SchoolManagement.Api.DTOs
-//{
-//    public class ChangePasswordDto
-//    {
-//    }
-//}
-
-namespace SchoolManagement.Api.DTOs
+﻿namespace SchoolManagement.Api.DTOs
 {
     public class ChangePasswordDto
     {
